@@ -1,12 +1,13 @@
 {
   "name": "kick-pool-server",
-  "version": "1.0.0",
-  "description": "WebSocket relay and matchmaking server for Kick Pool",
+  "version": "2.0.0",
+  "description": "WebSocket server with authoritative server-side physics for Kick Pool",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "ws": "^8.16.0"
+    "ws": "^8.16.0",
+    "planck": "^1.0.0"
   }
 }
